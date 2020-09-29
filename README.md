@@ -1,7 +1,10 @@
 # taskmanager
 
-to run the program use `python taskmanager.py`
+A Python script to manage tasks and things to do.
+This program uses SQLite for storage.
 
-this program uses SQLite for storage
+## How to run it
 
-running the first time, the program creates the taskmanager.sqlite database, where all task lists will be saved automatically time after time
+To run the program use `python taskmanager.py`
+
+The first time the program runs, a database file (`taskmanager.sqlite`) is created. All tasks will be stored there automatically time after time.
